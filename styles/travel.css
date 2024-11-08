@@ -150,6 +150,7 @@ li a{
     color: white;
     font-weight: 600;
     margin-top: 30px;
+    cursor: pointer;
 }
 .dest-image img{
 width: 500px;
@@ -226,6 +227,32 @@ border-radius: 18px;
         background-color: rgb(255, 84, 0);
         display: inline;
     }
+
+    .tour-hist{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .travel-dest{
+        max-width: 390px;
+        margin-bottom: 50px;
+    }
+    #one{
+        font-size: 25px;
+    }
+    #two{
+        font-size: 14px;
+    }
+    .colored-bullets{
+        font-size: 14px;
+    }
+
+    .dest-image img{
+        width: 390px;
+        height: 350px;
+        border-radius: 18px;
+        }
+
 }
 
 @media screen and (min-width:576px) and (max-width:1096px){
