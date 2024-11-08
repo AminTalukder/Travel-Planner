@@ -1,0 +1,218 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+nav{
+    display: flex;
+    padding: 50px 100px;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+}
+.nav-logo img{
+    padding-right:8px;
+    width:20%;
+}
+.nav-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-title-color{
+    color:rgb(255, 84, 0)
+}
+nav ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-left:40px
+}
+li a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-weight: 500;
+}
+.nav-menu-color{
+    color: rgb(255,84,0);
+    font-weight: 600;
+}
+ .banner{
+    display: block;
+    max-width: 1170px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 1170px 500px;
+    background-position: center;
+}
+.banner h1,p{
+    color:  coral;
+}
+.banner p{
+    color:white;
+}
+.banner-heading{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.banner-des
+{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
+
+.banner-container{
+    position:relative;
+    top: 110px;
+}
+
+.search-des{
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 84, 0);
+}
+.btn-primary i{
+    padding-right: 5px;
+}
+
+@media screen and (max-width:576px) {
+
+    nav{
+        display: flex;
+        flex-direction:column;
+        padding: 0;
+    }
+    ul li{
+        padding-left:15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .banner{
+        text-align: center;
+        margin: 0 auto;
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+        background-size: 390px 483px;
+        background-position: center;
+    
+    }
+    .banner-heading{
+        font-size: 35px;
+        position: relative;
+        bottom: 65px;
+    }
+    .banner-des{
+        padding: 0;
+        font-size: 11px;
+        max-width: 380px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 70px;
+        font-weight: 700;
+    }
+    .search-bar, .search-des, .btn-primary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 15px;
+    }
+
+    #travel-place{
+        width: 250px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    #travel-time{
+        width: 280px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .btn-primary{
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 84, 0);
+        display: inline;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1096px){
+    nav{
+        display: flex;
+        flex-direction:column;
+        padding:0;
+    }
+    ul li{
+        padding-left:40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .banner{
+        text-align: center;
+        margin: 0 auto;
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+        background-size: 490px 983px;
+        background-position: center;
+    
+    }
+    .banner-heading{
+        font-size: 40px;
+        position: relative;
+        bottom: 65px;
+    }
+    .banner-des{
+        padding: 0;
+        font-size: 15px;
+        max-width: 480px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 70px;
+        font-weight: 700;
+    }
+    .search-bar, .search-des, .btn-primary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 15px;
+    }
+
+    #travel-place{
+        width: 350px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    #travel-time{
+        width: 380px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .btn-primary{
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 84, 0);
+        display: inline;
+    }
+}
