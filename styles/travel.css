@@ -158,7 +158,47 @@ height: 500px;
 border-radius: 18px;
 }
 
-  
+  /* destination starts here */
+ .des-title, .dest-des{
+    color: black;
+    text-align: center;
+ }
+ .des-title{
+    margin-top: 50px;
+ }
+
+ .dest-des{
+    margin-top: 10px;
+    margin-bottom: 50px;
+ }
+ 
+.des-card1,.des-card2,.des-card3{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 15px;
+}
+#im3{
+    width: 286px;
+    height: 284px;
+}
+.des-dest{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom:30px ;
+}
+ .card-text{
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-family: 'Mulish';
+    font-weight: 700;
+ }
+
 
 
 @media screen and (max-width:576px) {
@@ -270,6 +310,47 @@ border-radius: 18px;
         height: 350px;
         border-radius: 18px;
     }
+
+    .des-card1,.des-card2,.des-card3{
+        display: flex;
+        flex-direction: column;
+        max-width: 390px;
+        margin: 0 auto;
+        gap: 5px;
+    }
+
+    .des-card1 img{
+        width: 390px;
+        height: 176px;
+    }
+    .des-card2 img{
+        width: 390px;
+        height: 176px;
+    }
+    .des-card3 img{
+        width: 390px;
+        height: 176px;
+    }
+
+    #im3{
+        width: 390px;
+        height: 176px;
+    }
+
+    .des-title{
+        margin-top: 0;
+    }
+    .card-text{
+        text-align: center;
+        position: relative;
+        bottom: 110px;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+        font-family: 'Mulish';
+        font-weight: 700;
+     }
+    
 
 }
 
@@ -404,4 +485,45 @@ border-radius: 18px;
         height: 450px;
         border-radius: 18px;
         }
+
+        .des-card1,.des-card2,.des-card3{
+            display: flex;
+            flex-direction: column;
+            max-width: 490px;
+            margin: 0 auto;
+            gap: 5px;
+        }
+    
+        .des-card1 img{
+            width: 490px;
+            height: 450px;
+        }
+        .des-card2 img{
+            width: 490px;
+            height: 450px;
+        }
+        .des-card3 img{
+            width: 490px;
+            height: 450px;
+        }
+    
+        #im3{
+            width: 490px;
+            height:450px;
+        }
+    
+        .des-title{
+            margin-top: 10;
+        }
+        .card-text{
+            text-align: center;
+            position: relative;
+            bottom: 250px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 35px;
+            font-family: 'Mulish';
+            font-weight: 700;
+         }
+        
 }
