@@ -248,24 +248,15 @@ border-radius: 18px;
 }
 
 /* another sec */
-.pal-img{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-
-.pal-container{
-    border-radius: 10px;
-    background: rgba(208, 244, 252,0.7);
-    /* width:579px;
-    height: 350px; */
-    background-image:url('../Images/Group\ 39.png');
+.tour-content{
+    background-image: url('../Images/Group\ 39.png');
     background-repeat: no-repeat;
-    background-size: 1170px 570px ;
+    height: 500px;
     max-width: 1170px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
-.pal-container i{
+.tour-info i{
     display: inline-flex;
     padding-top: 60px;
     position: relative;
@@ -296,6 +287,36 @@ border-radius: 18px;
 #text-button{
     margin-left: 50px;
     cursor: pointer;
+}
+
+.tour-overplay{
+    background-color:rgba(205, 242, 251,0.8);
+    width: 570px;
+    height: 380px;
+    position: relative;
+    left: 530px;
+    top: 70px;
+    border-radius: 10px;
+    
+}
+.tour-content2{
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    height: 500px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.tour-overplay2{
+    background-color:rgba(205, 242, 251,0.8);
+    width: 570px;
+    height: 380px;
+    position: relative;
+    left: 530px;
+    top: 70px;
+    border-radius: 10px;
+    transform: scaleX(-1);
 }
 
 
