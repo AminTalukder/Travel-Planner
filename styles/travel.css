@@ -368,7 +368,90 @@ border-radius: 18px;
     font-size: 16px;
     font-weight: 700;
 }
+.offers{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 20px;
 
+}
+.offers-det{
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 5px;
+    height: 422px;
+    width: 474px;
+}
+
+.offers-det>h4{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.offers-det>p{
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+hr{
+  width: 87%;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.user-info input[type="text"],
+.user-info input[type="email"]{
+  width: 80%;
+  padding: 13px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 37px;
+  background-color: #F3F3F3;
+}
+
+.subscribe{
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 86%;
+    margin-left:37px ;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.offers-limit img{
+    width: 670px;
+    height:420px;
+    border-radius: 14px;
+}
+
+.offers-banner{
+    position: relative;
+    left: 330px;
+    bottom: 176px;
+    background-color: rgba(255, 84, 0,0.9);
+    width: 324px;
+    height: 123px;
+    text-align: center;
+    border-radius: 15px;
+    transform: rotate(-19.63deg);
+    color: #F3F3F3;
+}
+.offers-banner >p{
+    color: #F3F3F3;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 25px;
+}
 @media screen and (max-width:576px) {
 
     nav{
@@ -666,6 +749,71 @@ border-radius: 18px;
         width: 390px;
         height: 250px;
     }
+    .offers{
+        display: flex;
+        flex-direction: column;
+        max-width: 390px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .offers-det{
+        border: 1px solid rgb(255, 84, 0);
+        border-radius: 5px;
+        height: 390px;
+        width: 390px;
+    }
+
+    .offers-limit img{
+        width: 390px;
+        height:300px;
+        border-radius: 14px;
+    }
+    .offers-banner{
+        width: 214px;
+        height: 80px;
+        position: relative;
+        left: 170px;
+        bottom: 115px;
+    }
+    .offers-banner>p{
+        padding:0;
+        font-size: 20px;
+        position: relative;
+        top: 13px;
+
+    }
+    .offers-banner>h2{
+        padding-top: 10px;
+        font-size: 18px;
+        margin-left: 15px;
+        
+    }
+
+    .offers-det>h4{
+        margin: 10px 30px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .offers-det>p{
+        margin: 10px 30px;
+        font-size: 17px;
+    }
+
+.user-info input[type="text"],
+.user-info input[type="email"]{
+  width: 75%;
+  padding: 13px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 37px;
+  background-color: #F3F3F3;
+}
+hr{
+    width: 83%;
+}
+.subscribe{
+    width: 83%;
+}
 }
 
 @media screen and (min-width:576px) and (max-width:1096px){
@@ -987,6 +1135,72 @@ border-radius: 18px;
             width: 490px;
             height: 300px;
         }
+
+        .offers{
+            display: flex;
+            flex-direction: column;
+            max-width: 490px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+        .offers-det{
+            border: 1px solid rgb(255, 84, 0);
+            border-radius: 5px;
+            height: 450px;
+            width: 490px;
+        }
+    
+        .offers-limit img{
+            width: 490px;
+            height:320px;
+            border-radius: 14px;
+        }
+        .offers-banner{
+            width: 214px;
+            height: 80px;
+            position: relative;
+            left: 270px;
+            bottom: 115px;
+        }
+        .offers-banner>p{
+            padding:0;
+            font-size: 22px;
+            position: relative;
+            top: 11px;
+    
+        }
+        .offers-banner>h2{
+            padding-top: 10px;
+            font-size: 18px;
+            margin-left: 16px;
+            
+        }
+    
+        .offers-det>h4{
+            margin: 15px 30px;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        .offers-det>p{
+            margin: 15px 30px;
+            font-size: 20px;
+        }
+    
+    .user-info input[type="text"],
+    .user-info input[type="email"]{
+      width: 80%;
+      padding: 13px;
+      font-size: 15px;
+      border-radius: 10px;
+      margin-left: 37px;
+      background-color: #F3F3F3;
+    }
+    hr{
+        width: 86%;
+    }
+    .subscribe{
+        width: 86%;
+    }
     
 }
 
