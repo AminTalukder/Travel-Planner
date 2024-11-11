@@ -452,6 +452,43 @@ hr{
     font-weight: 500;
     padding-top: 25px;
 }
+
+/* footer starts here */
+.footer-panel{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    width: 1440px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.footer-logo img{
+    width: 40px;
+    height: 40px;
+}
+.footer-hr{
+    width: 60%;
+    margin: 30px 0;
+}
+.footer-text{
+    max-width: 770px;
+    color: black;
+    font-weight: 300;
+}
+.footer-copyright{
+    color:crimson;
+    font-size: 17px;
+    font-weight: 600;
+}
 @media screen and (max-width:576px) {
 
     nav{
@@ -814,6 +851,44 @@ hr{
 .subscribe{
     width: 83%;
 }
+.footer-panel{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    max-width: 390px;
+    margin: 0 auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.footer-logo img{
+    width: 40px;
+    height: 40px;
+}
+.footer-hr{
+    width: 60%;
+    margin: 30px 0;
+}
+.footer-text{
+    max-width: 380px;
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+}
+.footer-copyright{
+    color:crimson;
+    font-size: 17px;
+    font-weight: 600;
+} 
+
 }
 
 @media screen and (min-width:576px) and (max-width:1096px){
@@ -1200,6 +1275,43 @@ hr{
     }
     .subscribe{
         width: 86%;
+    }
+
+    .footer-panel{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 243, 243);
+        width: 700px;
+        height: 350px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-logo{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .footer-logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .footer-hr{
+        width: 60%;
+        margin: 30px 0;
+    }
+    .footer-text{
+        max-width: 600px;
+        color: black;
+        font-weight: 300;
+    }
+    .footer-copyright{
+        color:crimson;
+        font-size: 18px;
+        font-weight: 600;
     }
     
 }
